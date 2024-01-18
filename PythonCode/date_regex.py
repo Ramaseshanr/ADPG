@@ -21,6 +21,7 @@ def check_email_address(input_pattern:str) -> str:
         return "a valid email address"
     else:
         return "an invalid email address"
+    
 if __name__ == '__main__':
     # Test cases for day
     for date in range(40):
