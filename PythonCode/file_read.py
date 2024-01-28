@@ -43,10 +43,12 @@ def read_file_method_2(filename:str) -> list:
 if __name__ == '__main__':
     # open a file in the current directory using the mode "read only"
     input_file = input('Input file: ')
-    read_file_method_1(input_file)
+    # read_file_method_1(input_file)
 
     sentences = read_file_method_2(input_file)
-    for sentence in sentences:
-        print(sentence)
+    dict = {}
+    for i, sentence in enumerate(sentences):
+        dict[i] = sentence.split(' ')
+    print(dict)
 
     

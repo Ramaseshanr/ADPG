@@ -34,7 +34,7 @@ if __name__ == '__main__':
         ('q1', '0'): 'q2',
         ('q1', '1'): 'q1',
         ('q2', '0'): 'q2',
-        ('q2', '1'): 'q0'
+        ('q2', '1'): 'q2'
     }
 
     initial_state = 'q0'
@@ -51,3 +51,4 @@ if __name__ == '__main__':
         print("The string is accepted.")
     else:
         print("The string is not accepted.")
+
