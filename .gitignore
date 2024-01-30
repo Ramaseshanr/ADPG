@@ -7,3 +7,4 @@ PythonCode/insert_sort
 *.py
 PythonCode/file_read.py
 .DS_Store
+*.s
