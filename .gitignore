@@ -8,3 +8,4 @@ PythonCode/insert_sort
 PythonCode/file_read.py
 .DS_Store
 *.s
+*.key
